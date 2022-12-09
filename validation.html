@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Validate jQuery Plugin</title>
+    <link rel="stylesheet" href="validation.css.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js" integrity="sha512-rstIgDs0xPgmG6RX1Aba4KV5cWJbAMcvRCVmglpam9SoHZiUCyQVDdH2LPlxoHtrv17XWblE/V/PP+Tr04hbtA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="validation.js.js"></script>
+
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>jQuery Form Validation</h1>
+      </header>
+      <nav>
+        <ul>
+          <li><a href="validation.html">link1</a></li>
+          <li><a href="JSON.html">link2</a></li>
+          <li><a href="map.html">link3</a></li>
+        </ul>
+      </nav>
+
+      <main>
+
+        <form novalidate action="//example.com" method="post" id="form">
+
+          <fieldset>
+            <legend>Please fill out this pet survey</legend>
+            <ol>
+
+              <li>
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" name="fname" placeholder="Enter your first name">
+              </li>
+              <li>
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" name="lname" placeholder="Enter your last name">
+              </li>
+              <li>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" placeholder="youremail@place.com">
+              </li>
+
+              <li>
+                <label for="options"> How many pets do you own?</label>
+                <select id="options" name="options">
+                  <option value="">Pick one</option>
+                  <option value="one">One</option>
+                  <option value="two">Two</option>
+                  <option value="three">Three</option>
+                  <option value="four">Four</option>
+                </select>
+              </li>
+              <li>
+                <span>How likely are your to get another pet in the next year?::</span>
+                <p><input id="Unlikely" type="radio" name="another">
+                  <label for="Unlikely">Unlikely</label>
+
+                  <input id="likely" type="radio" name="another">
+                  <label for="likely">Very Likely</label>
+
+                  <input id="deffinite" type="radio" name="another">
+                  <label for="deffinite">100%</label>
+                </p>
+              </li>
+              <li>
+                <span> What kind of pets do you own? </span>
+                <p><input type="checkbox" name="pet" id="dog" class="dothis">
+                  <label class="checkbox" for="dog">Dog</label>
+
+                  <input type="checkbox" name="pet" id="cat" class="dothis">
+                  <label class="checkbox" for="cat">Cat</label>
+
+                  <input type="checkbox" name="pet" id="hamster" class="dothis">
+                  <label class="checkbox" for="hamster">Hamster</label>
+
+                  <input type="checkbox" name="pet" id="fish" class="dothis">
+                  <label class="checkbox" for="fish">Fish</label>
+                </p>
+
+
+              </li>
+
+              <li>
+                <label for="tellme">Tell us more</label>
+                <textarea id="tellme" placeholder="Tell me about your pets" name="tellme"></textarea>
+              </li>
+
+              <li>
+
+                <input class="submit" id="submit" type="submit" value="Submit Survey">
+              </li>
+            </ol>
+          </fieldset>
+        </form>
+      </main>
+      <footer>
+        <p>
+          &copy; 2022 RACER
+        </p>
+      </footer>
+    </div>
+
+  </body>
+
+</html>
