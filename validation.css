@@ -1,0 +1,167 @@
+.wrapper {
+2	    width: 960px;
+3	    margin: 0 auto;
+4	    font-family:'Times New Roman';
+5	    font-size:100%;
+6	    box-shadow:4px 4px 4px hsla(260, 100%, 30%, 0.27);
+7	    background-color:#FCF4EE;
+8	    border-radius:10%;
+9	    padding:1rem;
+10	}
+11	
+12	nav {
+13	    padding:5px;
+14	    background-color:#6D6259;
+15	    box-sizing: border-box; 
+16	    color:#FCF4EE;
+17	    width:100%;
+18	}
+19	
+20	nav a {
+21	    color:#FCF4EE;
+22	}
+23	
+24	nav a:visited {
+25	    color: #BEA797;
+26	}
+27	
+28	nav a:hover {
+29	    color:white;
+30	}
+31	
+32	nav ul li{
+33	    border:none;
+34	    display:inline;
+35	}
+36	
+37	footer {
+38	    clear: both;
+39	    margin-left:1rem;
+40	}
+41	
+42	a:visited {
+43	    color: hsla(250, 100%, 25%, 0.95);
+44	}
+45	
+46	a:hover {
+47	    color: hsla(1, 100%, 50%, 1);
+48	}
+49	
+50	h1 {
+51	    color:#6D6259;
+52	    text-shadow:2px 2px 2px hsla(260, 100%, 30%, 0.27);
+53	    margin-left:1rem;
+54	}
+55	
+56	h2 {
+57	    color:hsla(260, 100%, 37%, 0.95);
+58	    text-shadow:2px 2px 2px hsla(260, 100%, 37%, 0.27);
+59	}
+60	
+61	.intro {
+62	    border-radius: 5px;
+63	    background-color: hsla(30, 100%, 70%, 0.67);
+64	    box-shadow: 3px 3px 3px hsla(30, 100%, 30%, 0.87);
+65	    width:200px;
+66	}
+67	
+68	fieldset {
+69	    border:none;
+70	}
+71	
+72	input {
+73	    margin-top:30px;
+74	}
+75	
+76	ol li {
+77	    background-color:#BEA797;
+78	    box-sizing: border-box; 
+79	    padding:10px;
+80	    margin-right:300px;
+81	    margin-bottom:10px;
+82	    text-align:center;
+83	    list-style:none;
+84	    width:100%;
+85	}
+86	        
+87	        #main {
+88	            width: 70%;
+89	            margin: 0 auto;
+90	        }
+91	        
+92	        ol {
+93	            padding: 0;
+94	            list-style: none;
+95	        }
+96	        
+97	        li {
+98	            margin: 10px 0;
+99	            padding: 20px;
+100	            border: 1px solid #ccc;
+101	        font-size:100%;
+102	        }
+103	
+104	    li span{
+105	    font-size:120%;
+106	    }
+107	
+108	    form {
+109	    margin-top:2rem;
+110	    border:none;
+111	    }
+112	    
+113	    form legend {
+114	    font-size:150%;
+115	}
+116	        
+117	        form label {
+118	            display: inline;
+119	        font-size:120%;    
+120	        }
+121	        
+122	        form input[type=text],
+123	        form input[type=password],
+124	    form input[type=email] {
+125	            line-height: 1.4;
+126	            font-size: 100%;
+127	            padding: 0 6px;
+128	            width: 100%;
+129	       box-sizing: border-box; 
+130	        }
+131	
+132	    form input[type=radio]{
+133	        font-size: 100%;
+134	    box-sizing: border-box; 
+135	    display:inline;
+136	        }
+137	
+138	    form input[type=checkbox]{
+139	        font-size: 100%;
+140	    box-sizing: border-box; 
+141	    display:inline;
+142	        }
+143	
+144	
+145	    textarea {
+146	        font-size: 100%;
+147	    box-sizing: border-box; 
+148	    display:block;
+149	    width:50%;
+150	    margin: .5rem auto;
+151	        }
+152	
+153	
+154	
+155	        .error {
+156	            color: red;
+157	            line-height: 1.8;
+158	            padding: 0 8px;
+159	        }
+160	        
+161	        [aria-invalid="false"] {
+162	            outline: 1px solid green;
+163	        }
+164	        
+165	        .error-parent {
+166	            background: hsl(350deg 100% 96%);
+167	        }
